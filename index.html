@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Workbench&display=swap"
+        rel="stylesheet">
+    <title>point and click adventure</title>
+</head>
+
+<body>
+    <div id="title">
+        <h1 id="mainTitle"></h1>
+    </div>
+    <div id="gameWindow">
+        <!--dialog bar-->
+        <div id="dialogBar" class="foreground">
+            <div id="setMainDialog">
+                <div id="mainCharacterAvatar" class="foreground"> <img src="assets/Assets/dinofinalfian;.png"></div>
+                <div id="mainCharacterSpeech" class="foreground speech-bubble">...</div>
+                <div id="counterAvatar" class="foreground"><img src="assets/Assets/GROOT2.png">
+                </div>
+                <div id="counterSpeech" class="foreground speech-bubble">...</div>
+                <div id="brownBar"></div>
+            </div>
+        </div>
+
+        <!-- inventory -->
+        <div id="inventoryBox" class="foreground">
+            <p>Inventory</p>
+            <ul id="inventoryList">
+
+            </ul>
+        </div>
+        <!-- foreground items -->
+        <div id="shrine" class="foreground">
+            <img id="shrineid" src="assets/Assets/teleporterpt1.png">
+        </div>
+        <div id="chestopen" class="foreground">
+            <img src="assets/Assets/chestopen2.png">
+        </div>
+        <div id="chestclosed" class="foreground">
+            <img id="key1" src="assets/Assets/chest closed2.png">
+        </div>
+        <div id="door1" class="foreground">
+            <img id="door1open" src="assets/Assets/dooropen2.png">
+        </div>
+        <div id="statue" class="foreground"></div>
+        <!-- character -->
+        <div id="maincharacter" class="herocharacter">
+            <img src="assets/Animations/dinoCharactersVersion1.1/gifs/DinoSprites_vita.gif">
+        </div>
+        <div id="tilemap" class="background">
+            <img src="assets/BackGround/map.png" draggable="false">
+        </div>
+        <div id="inside" class="background">
+            <img id="insideblock" src="assets/Assets/Inside.png">
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
